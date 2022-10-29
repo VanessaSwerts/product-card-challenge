@@ -5,13 +5,14 @@
   --cream: hsl(30, 38%, 92%);
   --darkgrey: hsl(228, 12%, 48%);
   --darkgreen: hsl(158, 36%, 37%);
-  --bluishblack: hsl(212, 21%, 14%); 
+  --bluishblack: hsl(212, 21%, 14%);
 }
 
 * {
   margin: 0px;
   padding: 0px;
   text-decoration: none;
+  box-sizing: border-box;
 }
 
 html {
@@ -21,16 +22,18 @@ html {
 body {
   background-color: var(--cream);
   text-align: left;
+  min-height: 100vh;
 }
 
 h1 {
-  color:var(--bluishblack);
+  color: var(--bluishblack);
   font-family: 'Fraunces', sans-serif;
   font-weight: 700;
 }
 
-p, span {
-  color:var(--darkgrey);
+p,
+span {
+  color: var(--darkgrey);
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
 }
@@ -40,14 +43,14 @@ p, span {
   border-radius: 8px;
   margin: 30px 15px;
   padding: 0;
-  
+
   display: flex;
   flex-direction: column;
 }
 
-.main-container .image-section figure img {
+.main-container .image-section picture img {
   width: 100%;
-  border-radius: 8px 8px 0 0 ;
+  border-radius: 8px 8px 0 0;
 }
 
 .main-container .info-section {
@@ -57,8 +60,8 @@ p, span {
 }
 
 .main-container .info-section .type {
-  text-transform: uppercase; 
-  letter-spacing: 4px; 
+  text-transform: uppercase;
+  letter-spacing: 4px;
   font-size: 0.75rem;
 }
 
@@ -101,7 +104,7 @@ p, span {
   color: var(--white);
 
   display: flex;
-  align-content: center;
+  align-items: center;
   justify-content: center;
 }
 
@@ -111,19 +114,60 @@ p, span {
 
 .main-container .info-section .add-button:hover {
   filter: brightness(90%);
+  cursor: pointer;
 }
 
 @media screen and (min-width: 992px) {
+
+  body {
+    background-color: var(--cream);
+    text-align: left;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
   .main-container {
+    margin: auto;
+    min-width: 450px;
+    width: 35%;
+
     display: flex;
     flex-direction: row;
   }
-  
-  .main-container .image-section figure img {
+
+  .main-container .image-section picture img {
+    height: 100%;
     border-radius: 8px 0 0 8px;
+    object-fit: cover;
   }
-  
-  
+
+  .main-container .info-section {
+    padding: 26px 24px;
+    max-width: 50%;
+  }
+
+  .main-container .info-section .title {
+    padding-top: 16px;
+    font-size: 1.75rem;
+  }
+
+  .main-container .info-section .description {
+    padding: 16px 0 24px;
+    font-size: 0.7rem;
+  }
+
+  .main-container .info-section .price-container .price {
+    font-size: 1.7rem;
+  }
+
+  .main-container .info-section .add-button {
+    margin-top: 16px;
+    padding: 12px;
+  }
+
+
 }
-
-
