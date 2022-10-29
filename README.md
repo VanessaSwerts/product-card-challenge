@@ -1,6 +1,6 @@
 <p align="center">  
-  <a href="https://github.com/VanessaSwerts/profile-card-challenge/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/VanessaSwerts/profile-card-challenge">
+  <a href="https://github.com/VanessaSwerts/product-card-challenge/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/VanessaSwerts/product-card-challenge">
   </a>    
 </p>
 
@@ -30,8 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://vanessaswerts.github.io/product-card-challenge/](https://vanessaswerts.github.io/product-card-challenge/)
 
 ## My process
 
