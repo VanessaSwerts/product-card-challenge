@@ -1,6 +1,6 @@
 <p align="center">  
-  <a href="https://github.com/VanessaSwerts/profile-card-challenge/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/VanessaSwerts/profile-card-challenge">
+  <a href="https://github.com/VanessaSwerts/product-card-challenge/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/VanessaSwerts/product-card-challenge">
   </a>    
 </p>
 
